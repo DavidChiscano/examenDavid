@@ -66,12 +66,18 @@
                     <a href="#" class="nav-item nav-link active">Inicio</a>
                     <a href="#" class="nav-item nav-link">Menu 1</a>
                     <a href="#" class="nav-item nav-link">Menu 2</a>
-                    <a href="#" class="nav-item nav-link">Menu 3</a>
+                    <div class="dropdown ">
+                      <a class="nav-item nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Accesibilidad
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" onclick="fuenteDislexicos()" href="#">Cambiar fuente a OpenDyslexic</a></li>
+                        <li><a class="dropdown-item" href="#">Accion 2</a></li>
+                        <li><a class="dropdown-item" href="#">Accion 3</a></li>
+                      </ul>
+                    </div>
                 </div>
-                <div class="navbar-nav ms-auto">
-                    <button type="button" class="nav-item btn btn-sm btn-outline-secondary"  onclick="fuenteDislexicos()">Cambiar Fuente</button>
-    
-                </div>
+
             </div>
         </div>
     </nav>
