@@ -1,4 +1,6 @@
 /* Variables estandar */
+
+
 /* Navbar */
 .navbar img {
   margin-right: 8em;
@@ -7,6 +9,18 @@
 .navbar-nav a {
   margin-right: 15em;
   color: black !important;
+}
+
+/* Tamaño del carousel de imagenes */
+.carousel-inner {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+ /* color flechas carrousel = negro */ 
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
 }
 
 /* Efecto hover */
