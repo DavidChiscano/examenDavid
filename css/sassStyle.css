@@ -1,6 +1,11 @@
 /* Variables estandar */
 
 
+/*Justificar textos */
+p{
+  text-align: justify;
+}
+
 /* Navbar */
 .navbar img {
   margin-right: 8em;
